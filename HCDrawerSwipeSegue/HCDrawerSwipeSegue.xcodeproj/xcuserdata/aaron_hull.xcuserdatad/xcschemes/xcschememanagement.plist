@@ -7,17 +7,17 @@
 		<key>HCDrawerSwipeSegue.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A6FB0EBB18D9F2A800043974</key>
+		<key>A6FB0F3D18D9F54E00043974</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A6FB0EDC18D9F2A800043974</key>
+		<key>A6FB0F4D18D9F54E00043974</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample.xcodeproj">
+      location = "group:HCDrawerSwipeSegue/HCDrawerSwipeSegue.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:HCDrawerSwipeSegue/HCDrawerSwipeSegue.xcodeproj">
+      location = "group:HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample.xcodeproj">
    </FileRef>
 </Workspace>

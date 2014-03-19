@@ -7,147 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6FB0EC018D9F2A800043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EBF18D9F2A800043974 /* Foundation.framework */; };
-		A6FB0EC218D9F2A800043974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EC118D9F2A800043974 /* CoreGraphics.framework */; };
-		A6FB0EC418D9F2A800043974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EC318D9F2A800043974 /* UIKit.framework */; };
-		A6FB0ECA18D9F2A800043974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6FB0EC818D9F2A800043974 /* InfoPlist.strings */; };
-		A6FB0ECC18D9F2A800043974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0ECB18D9F2A800043974 /* main.m */; };
-		A6FB0ED018D9F2A800043974 /* DSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0ECF18D9F2A800043974 /* DSSAppDelegate.m */; };
-		A6FB0ED318D9F2A800043974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FB0ED118D9F2A800043974 /* Main.storyboard */; };
-		A6FB0ED618D9F2A800043974 /* DSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0ED518D9F2A800043974 /* DSSViewController.m */; };
-		A6FB0ED818D9F2A800043974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FB0ED718D9F2A800043974 /* Images.xcassets */; };
-		A6FB0EDF18D9F2A800043974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EDE18D9F2A800043974 /* XCTest.framework */; };
-		A6FB0EE018D9F2A800043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EBF18D9F2A800043974 /* Foundation.framework */; };
-		A6FB0EE118D9F2A800043974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0EC318D9F2A800043974 /* UIKit.framework */; };
-		A6FB0EE918D9F2A800043974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6FB0EE718D9F2A800043974 /* InfoPlist.strings */; };
-		A6FB0EEB18D9F2A800043974 /* HCDrawerSwipeSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0EEA18D9F2A800043974 /* HCDrawerSwipeSegueTests.m */; };
+		A6FB0F4218D9F54E00043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F4118D9F54E00043974 /* Foundation.framework */; };
+		A6FB0F4718D9F54E00043974 /* HCDrawerSwipeSegue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6FB0F4618D9F54E00043974 /* HCDrawerSwipeSegue.h */; };
+		A6FB0F4918D9F54E00043974 /* HCDrawerSwipeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0F4818D9F54E00043974 /* HCDrawerSwipeSegue.m */; };
+		A6FB0F5018D9F54E00043974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F4F18D9F54E00043974 /* XCTest.framework */; };
+		A6FB0F5118D9F54E00043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F4118D9F54E00043974 /* Foundation.framework */; };
+		A6FB0F5318D9F54E00043974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F5218D9F54E00043974 /* UIKit.framework */; };
+		A6FB0F5618D9F54E00043974 /* libHCDrawerSwipeSegue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F3E18D9F54E00043974 /* libHCDrawerSwipeSegue.a */; };
+		A6FB0F5C18D9F54E00043974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6FB0F5A18D9F54E00043974 /* InfoPlist.strings */; };
+		A6FB0F5E18D9F54E00043974 /* HCDrawerSwipeSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB0F5D18D9F54E00043974 /* HCDrawerSwipeSegueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6FB0EE218D9F2A800043974 /* PBXContainerItemProxy */ = {
+		A6FB0F5418D9F54E00043974 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6FB0EB418D9F2A800043974 /* Project object */;
+			containerPortal = A6FB0F3618D9F54E00043974 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6FB0EBB18D9F2A800043974;
+			remoteGlobalIDString = A6FB0F3D18D9F54E00043974;
 			remoteInfo = HCDrawerSwipeSegue;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXFileReference section */
-		A6FB0EBC18D9F2A800043974 /* HCDrawerSwipeSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCDrawerSwipeSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6FB0EBF18D9F2A800043974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A6FB0EC118D9F2A800043974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6FB0EC318D9F2A800043974 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A6FB0EC718D9F2A800043974 /* HCDrawerSwipeSegue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HCDrawerSwipeSegue-Info.plist"; sourceTree = "<group>"; };
-		A6FB0EC918D9F2A800043974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A6FB0ECB18D9F2A800043974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6FB0ECD18D9F2A800043974 /* HCDrawerSwipeSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCDrawerSwipeSegue-Prefix.pch"; sourceTree = "<group>"; };
-		A6FB0ECE18D9F2A800043974 /* DSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSSAppDelegate.h; sourceTree = "<group>"; };
-		A6FB0ECF18D9F2A800043974 /* DSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSSAppDelegate.m; sourceTree = "<group>"; };
-		A6FB0ED218D9F2A800043974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6FB0ED418D9F2A800043974 /* DSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSSViewController.h; sourceTree = "<group>"; };
-		A6FB0ED518D9F2A800043974 /* DSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSSViewController.m; sourceTree = "<group>"; };
-		A6FB0ED718D9F2A800043974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A6FB0EDD18D9F2A800043974 /* HCDrawerSwipeSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCDrawerSwipeSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6FB0EDE18D9F2A800043974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A6FB0EE618D9F2A800043974 /* HCDrawerSwipeSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HCDrawerSwipeSegueTests-Info.plist"; sourceTree = "<group>"; };
-		A6FB0EE818D9F2A800043974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A6FB0EEA18D9F2A800043974 /* HCDrawerSwipeSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDrawerSwipeSegueTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A6FB0EB918D9F2A800043974 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+/* Begin PBXCopyFilesBuildPhase section */
+		A6FB0F3C18D9F54E00043974 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
 			files = (
-				A6FB0EC218D9F2A800043974 /* CoreGraphics.framework in Frameworks */,
-				A6FB0EC418D9F2A800043974 /* UIKit.framework in Frameworks */,
-				A6FB0EC018D9F2A800043974 /* Foundation.framework in Frameworks */,
+				A6FB0F4718D9F54E00043974 /* HCDrawerSwipeSegue.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6FB0EDA18D9F2A800043974 /* Frameworks */ = {
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6FB0F3E18D9F54E00043974 /* libHCDrawerSwipeSegue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHCDrawerSwipeSegue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FB0F4118D9F54E00043974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6FB0F4518D9F54E00043974 /* HCDrawerSwipeSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCDrawerSwipeSegue-Prefix.pch"; sourceTree = "<group>"; };
+		A6FB0F4618D9F54E00043974 /* HCDrawerSwipeSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDrawerSwipeSegue.h; sourceTree = "<group>"; };
+		A6FB0F4818D9F54E00043974 /* HCDrawerSwipeSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDrawerSwipeSegue.m; sourceTree = "<group>"; };
+		A6FB0F4E18D9F54E00043974 /* HCDrawerSwipeSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCDrawerSwipeSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FB0F4F18D9F54E00043974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6FB0F5218D9F54E00043974 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6FB0F5918D9F54E00043974 /* HCDrawerSwipeSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HCDrawerSwipeSegueTests-Info.plist"; sourceTree = "<group>"; };
+		A6FB0F5B18D9F54E00043974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6FB0F5D18D9F54E00043974 /* HCDrawerSwipeSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDrawerSwipeSegueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FB0F3B18D9F54E00043974 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FB0EDF18D9F2A800043974 /* XCTest.framework in Frameworks */,
-				A6FB0EE118D9F2A800043974 /* UIKit.framework in Frameworks */,
-				A6FB0EE018D9F2A800043974 /* Foundation.framework in Frameworks */,
+				A6FB0F4218D9F54E00043974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FB0F4B18D9F54E00043974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB0F5018D9F54E00043974 /* XCTest.framework in Frameworks */,
+				A6FB0F5318D9F54E00043974 /* UIKit.framework in Frameworks */,
+				A6FB0F5618D9F54E00043974 /* libHCDrawerSwipeSegue.a in Frameworks */,
+				A6FB0F5118D9F54E00043974 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6FB0EB318D9F2A800043974 = {
+		A6FB0F3518D9F54E00043974 = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EC518D9F2A800043974 /* HCDrawerSwipeSegue */,
-				A6FB0EE418D9F2A800043974 /* HCDrawerSwipeSegueTests */,
-				A6FB0EBE18D9F2A800043974 /* Frameworks */,
-				A6FB0EBD18D9F2A800043974 /* Products */,
+				A6FB0F4318D9F54E00043974 /* HCDrawerSwipeSegue */,
+				A6FB0F5718D9F54E00043974 /* HCDrawerSwipeSegueTests */,
+				A6FB0F4018D9F54E00043974 /* Frameworks */,
+				A6FB0F3F18D9F54E00043974 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6FB0EBD18D9F2A800043974 /* Products */ = {
+		A6FB0F3F18D9F54E00043974 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EBC18D9F2A800043974 /* HCDrawerSwipeSegue.app */,
-				A6FB0EDD18D9F2A800043974 /* HCDrawerSwipeSegueTests.xctest */,
+				A6FB0F3E18D9F54E00043974 /* libHCDrawerSwipeSegue.a */,
+				A6FB0F4E18D9F54E00043974 /* HCDrawerSwipeSegueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6FB0EBE18D9F2A800043974 /* Frameworks */ = {
+		A6FB0F4018D9F54E00043974 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EBF18D9F2A800043974 /* Foundation.framework */,
-				A6FB0EC118D9F2A800043974 /* CoreGraphics.framework */,
-				A6FB0EC318D9F2A800043974 /* UIKit.framework */,
-				A6FB0EDE18D9F2A800043974 /* XCTest.framework */,
+				A6FB0F4118D9F54E00043974 /* Foundation.framework */,
+				A6FB0F4F18D9F54E00043974 /* XCTest.framework */,
+				A6FB0F5218D9F54E00043974 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A6FB0EC518D9F2A800043974 /* HCDrawerSwipeSegue */ = {
+		A6FB0F4318D9F54E00043974 /* HCDrawerSwipeSegue */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0ECE18D9F2A800043974 /* DSSAppDelegate.h */,
-				A6FB0ECF18D9F2A800043974 /* DSSAppDelegate.m */,
-				A6FB0ED118D9F2A800043974 /* Main.storyboard */,
-				A6FB0ED418D9F2A800043974 /* DSSViewController.h */,
-				A6FB0ED518D9F2A800043974 /* DSSViewController.m */,
-				A6FB0ED718D9F2A800043974 /* Images.xcassets */,
-				A6FB0EC618D9F2A800043974 /* Supporting Files */,
+				A6FB0F4618D9F54E00043974 /* HCDrawerSwipeSegue.h */,
+				A6FB0F4818D9F54E00043974 /* HCDrawerSwipeSegue.m */,
+				A6FB0F4418D9F54E00043974 /* Supporting Files */,
 			);
 			path = HCDrawerSwipeSegue;
 			sourceTree = "<group>";
 		};
-		A6FB0EC618D9F2A800043974 /* Supporting Files */ = {
+		A6FB0F4418D9F54E00043974 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EC718D9F2A800043974 /* HCDrawerSwipeSegue-Info.plist */,
-				A6FB0EC818D9F2A800043974 /* InfoPlist.strings */,
-				A6FB0ECB18D9F2A800043974 /* main.m */,
-				A6FB0ECD18D9F2A800043974 /* HCDrawerSwipeSegue-Prefix.pch */,
+				A6FB0F4518D9F54E00043974 /* HCDrawerSwipeSegue-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A6FB0EE418D9F2A800043974 /* HCDrawerSwipeSegueTests */ = {
+		A6FB0F5718D9F54E00043974 /* HCDrawerSwipeSegueTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EEA18D9F2A800043974 /* HCDrawerSwipeSegueTests.m */,
-				A6FB0EE518D9F2A800043974 /* Supporting Files */,
+				A6FB0F5D18D9F54E00043974 /* HCDrawerSwipeSegueTests.m */,
+				A6FB0F5818D9F54E00043974 /* Supporting Files */,
 			);
 			path = HCDrawerSwipeSegueTests;
 			sourceTree = "<group>";
 		};
-		A6FB0EE518D9F2A800043974 /* Supporting Files */ = {
+		A6FB0F5818D9F54E00043974 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB0EE618D9F2A800043974 /* HCDrawerSwipeSegueTests-Info.plist */,
-				A6FB0EE718D9F2A800043974 /* InfoPlist.strings */,
+				A6FB0F5918D9F54E00043974 /* HCDrawerSwipeSegueTests-Info.plist */,
+				A6FB0F5A18D9F54E00043974 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +146,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6FB0EBB18D9F2A800043974 /* HCDrawerSwipeSegue */ = {
+		A6FB0F3D18D9F54E00043974 /* HCDrawerSwipeSegue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6FB0EEE18D9F2A800043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegue" */;
+			buildConfigurationList = A6FB0F6118D9F54E00043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegue" */;
 			buildPhases = (
-				A6FB0EB818D9F2A800043974 /* Sources */,
-				A6FB0EB918D9F2A800043974 /* Frameworks */,
-				A6FB0EBA18D9F2A800043974 /* Resources */,
+				A6FB0F3A18D9F54E00043974 /* Sources */,
+				A6FB0F3B18D9F54E00043974 /* Frameworks */,
+				A6FB0F3C18D9F54E00043974 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -169,132 +160,97 @@
 			);
 			name = HCDrawerSwipeSegue;
 			productName = HCDrawerSwipeSegue;
-			productReference = A6FB0EBC18D9F2A800043974 /* HCDrawerSwipeSegue.app */;
-			productType = "com.apple.product-type.application";
+			productReference = A6FB0F3E18D9F54E00043974 /* libHCDrawerSwipeSegue.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		A6FB0EDC18D9F2A800043974 /* HCDrawerSwipeSegueTests */ = {
+		A6FB0F4D18D9F54E00043974 /* HCDrawerSwipeSegueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6FB0EF118D9F2A800043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegueTests" */;
+			buildConfigurationList = A6FB0F6418D9F54E00043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegueTests" */;
 			buildPhases = (
-				A6FB0ED918D9F2A800043974 /* Sources */,
-				A6FB0EDA18D9F2A800043974 /* Frameworks */,
-				A6FB0EDB18D9F2A800043974 /* Resources */,
+				A6FB0F4A18D9F54E00043974 /* Sources */,
+				A6FB0F4B18D9F54E00043974 /* Frameworks */,
+				A6FB0F4C18D9F54E00043974 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6FB0EE318D9F2A800043974 /* PBXTargetDependency */,
+				A6FB0F5518D9F54E00043974 /* PBXTargetDependency */,
 			);
 			name = HCDrawerSwipeSegueTests;
 			productName = HCDrawerSwipeSegueTests;
-			productReference = A6FB0EDD18D9F2A800043974 /* HCDrawerSwipeSegueTests.xctest */;
+			productReference = A6FB0F4E18D9F54E00043974 /* HCDrawerSwipeSegueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6FB0EB418D9F2A800043974 /* Project object */ = {
+		A6FB0F3618D9F54E00043974 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DSS;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hull Computing";
-				TargetAttributes = {
-					A6FB0EDC18D9F2A800043974 = {
-						TestTargetID = A6FB0EBB18D9F2A800043974;
-					};
-				};
 			};
-			buildConfigurationList = A6FB0EB718D9F2A800043974 /* Build configuration list for PBXProject "HCDrawerSwipeSegue" */;
+			buildConfigurationList = A6FB0F3918D9F54E00043974 /* Build configuration list for PBXProject "HCDrawerSwipeSegue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = A6FB0EB318D9F2A800043974;
-			productRefGroup = A6FB0EBD18D9F2A800043974 /* Products */;
+			mainGroup = A6FB0F3518D9F54E00043974;
+			productRefGroup = A6FB0F3F18D9F54E00043974 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6FB0EBB18D9F2A800043974 /* HCDrawerSwipeSegue */,
-				A6FB0EDC18D9F2A800043974 /* HCDrawerSwipeSegueTests */,
+				A6FB0F3D18D9F54E00043974 /* HCDrawerSwipeSegue */,
+				A6FB0F4D18D9F54E00043974 /* HCDrawerSwipeSegueTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6FB0EBA18D9F2A800043974 /* Resources */ = {
+		A6FB0F4C18D9F54E00043974 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FB0ED818D9F2A800043974 /* Images.xcassets in Resources */,
-				A6FB0ECA18D9F2A800043974 /* InfoPlist.strings in Resources */,
-				A6FB0ED318D9F2A800043974 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6FB0EDB18D9F2A800043974 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6FB0EE918D9F2A800043974 /* InfoPlist.strings in Resources */,
+				A6FB0F5C18D9F54E00043974 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6FB0EB818D9F2A800043974 /* Sources */ = {
+		A6FB0F3A18D9F54E00043974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FB0ECC18D9F2A800043974 /* main.m in Sources */,
-				A6FB0ED018D9F2A800043974 /* DSSAppDelegate.m in Sources */,
-				A6FB0ED618D9F2A800043974 /* DSSViewController.m in Sources */,
+				A6FB0F4918D9F54E00043974 /* HCDrawerSwipeSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6FB0ED918D9F2A800043974 /* Sources */ = {
+		A6FB0F4A18D9F54E00043974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FB0EEB18D9F2A800043974 /* HCDrawerSwipeSegueTests.m in Sources */,
+				A6FB0F5E18D9F54E00043974 /* HCDrawerSwipeSegueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6FB0EE318D9F2A800043974 /* PBXTargetDependency */ = {
+		A6FB0F5518D9F54E00043974 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6FB0EBB18D9F2A800043974 /* HCDrawerSwipeSegue */;
-			targetProxy = A6FB0EE218D9F2A800043974 /* PBXContainerItemProxy */;
+			target = A6FB0F3D18D9F54E00043974 /* HCDrawerSwipeSegue */;
+			targetProxy = A6FB0F5418D9F54E00043974 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6FB0EC818D9F2A800043974 /* InfoPlist.strings */ = {
+		A6FB0F5A18D9F54E00043974 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6FB0EC918D9F2A800043974 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A6FB0ED118D9F2A800043974 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6FB0ED218D9F2A800043974 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A6FB0EE718D9F2A800043974 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6FB0EE818D9F2A800043974 /* en */,
+				A6FB0F5B18D9F54E00043974 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -302,7 +258,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6FB0EEC18D9F2A800043974 /* Debug */ = {
+		A6FB0F5F18D9F54E00043974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +274,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -340,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		A6FB0EED18D9F2A800043974 /* Release */ = {
+		A6FB0F6018D9F54E00043974 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +311,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -372,36 +326,33 @@
 			};
 			name = Release;
 		};
-		A6FB0EEF18D9F2A800043974 /* Debug */ = {
+		A6FB0F6218D9F54E00043974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/HCDrawerSwipeSegue.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegue/HCDrawerSwipeSegue-Prefix.pch";
-				INFOPLIST_FILE = "HCDrawerSwipeSegue/HCDrawerSwipeSegue-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A6FB0EF018D9F2A800043974 /* Release */ = {
+		A6FB0F6318D9F54E00043974 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/HCDrawerSwipeSegue.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegue/HCDrawerSwipeSegue-Prefix.pch";
-				INFOPLIST_FILE = "HCDrawerSwipeSegue/HCDrawerSwipeSegue-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A6FB0EF218D9F2A800043974 /* Debug */ = {
+		A6FB0F6518D9F54E00043974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HCDrawerSwipeSegue.app/HCDrawerSwipeSegue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -415,15 +366,13 @@
 				);
 				INFOPLIST_FILE = "HCDrawerSwipeSegueTests/HCDrawerSwipeSegueTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		A6FB0EF318D9F2A800043974 /* Release */ = {
+		A6FB0F6618D9F54E00043974 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HCDrawerSwipeSegue.app/HCDrawerSwipeSegue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -433,7 +382,6 @@
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegue/HCDrawerSwipeSegue-Prefix.pch";
 				INFOPLIST_FILE = "HCDrawerSwipeSegueTests/HCDrawerSwipeSegueTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -441,32 +389,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6FB0EB718D9F2A800043974 /* Build configuration list for PBXProject "HCDrawerSwipeSegue" */ = {
+		A6FB0F3918D9F54E00043974 /* Build configuration list for PBXProject "HCDrawerSwipeSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6FB0EEC18D9F2A800043974 /* Debug */,
-				A6FB0EED18D9F2A800043974 /* Release */,
+				A6FB0F5F18D9F54E00043974 /* Debug */,
+				A6FB0F6018D9F54E00043974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6FB0EEE18D9F2A800043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegue" */ = {
+		A6FB0F6118D9F54E00043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6FB0EEF18D9F2A800043974 /* Debug */,
-				A6FB0EF018D9F2A800043974 /* Release */,
+				A6FB0F6218D9F54E00043974 /* Debug */,
+				A6FB0F6318D9F54E00043974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A6FB0EF118D9F2A800043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegueTests" */ = {
+		A6FB0F6418D9F54E00043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6FB0EF218D9F2A800043974 /* Debug */,
-				A6FB0EF318D9F2A800043974 /* Release */,
+				A6FB0F6518D9F54E00043974 /* Debug */,
+				A6FB0F6618D9F54E00043974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6FB0EB418D9F2A800043974 /* Project object */;
+	rootObject = A6FB0F3618D9F54E00043974 /* Project object */;
 }
