@@ -2,7 +2,7 @@
 //  HCDrawerSwipeSegueTests.m
 //  HCDrawerSwipeSegueTests
 //
-//  Created by Aaron Hull on 3/19/14.
+//  Created by Aaron Hull on 3/20/14.
 //  Copyright (c) 2014 Hull Computing. All rights reserved.
 //
 

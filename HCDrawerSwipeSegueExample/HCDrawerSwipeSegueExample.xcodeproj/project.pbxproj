@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6E45B7B18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */; };
 		A6FB0F0118D9F36C00043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0018D9F36C00043974 /* Foundation.framework */; };
 		A6FB0F0318D9F36C00043974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */; };
 		A6FB0F0518D9F36C00043974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0418D9F36C00043974 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HCDrawerSwipeSegue.framework; path = "../DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos/HCDrawerSwipeSegue.framework"; sourceTree = "<group>"; };
 		A6FB0EFD18D9F36C00043974 /* HCDrawerSwipeSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCDrawerSwipeSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FB0F0018D9F36C00043974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			files = (
 				A6FB0F0318D9F36C00043974 /* CoreGraphics.framework in Frameworks */,
 				A6FB0F0518D9F36C00043974 /* UIKit.framework in Frameworks */,
+				A6E45B7B18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework in Frameworks */,
 				A6FB0F0118D9F36C00043974 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		A6FB0EFF18D9F36C00043974 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */,
 				A6FB0F0018D9F36C00043974 /* Foundation.framework */,
 				A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */,
 				A6FB0F0418D9F36C00043974 /* UIKit.framework */,
@@ -377,9 +381,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HCDrawerSwipeSegue-gfhqmkhqqjoschfruisbmojeykrm/Build/Products/Debug-iphonesimulator",
+					"/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Prefix.pch";
 				INFOPLIST_FILE = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HCDrawerSwipeSegue-gfhqmkhqqjoschfruisbmojeykrm/Build/Products/Debug-iphonesimulator",
+					"/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Prefix.pch";
 				INFOPLIST_FILE = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +473,7 @@
 				A6FB0F3118D9F36C00043974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6FB0F3218D9F36C00043974 /* Build configuration list for PBXNativeTarget "HCDrawerSwipeSegueExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				A6FB0F3418D9F36C00043974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

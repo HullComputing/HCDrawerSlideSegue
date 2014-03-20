@@ -2,12 +2,24 @@
 //  HCDrawerSwipeSegue.h
 //  HCDrawerSwipeSegue
 //
-//  Created by Aaron Hull on 3/19/14.
+//  Created by Aaron Hull on 3/20/14.
 //  Copyright (c) 2014 Hull Computing. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface HCDrawerSwipeSegue : NSObject
+@protocol HCDrawerSwipeMasterViewController <NSObject>
+
+
+
+@end
+
+@protocol HCDrawerSwipeChildViewController <NSObject>
+
+@end
+
+@interface HCDrawerSwipeSegue : UIStoryboardSegue
+
+
 
 @end

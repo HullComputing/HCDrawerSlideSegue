@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <HCDrawerSwipeSegue/HCDrawerSwipeSegue.h>
 
-@interface DSSEViewController : UIViewController
+@interface DSSEViewController : UIViewController <HCDrawerSwipeMasterViewController>
 
 @end
