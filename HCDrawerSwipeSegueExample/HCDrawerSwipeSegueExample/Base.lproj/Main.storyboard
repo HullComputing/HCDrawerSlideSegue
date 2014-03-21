@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Left View Controller-->
         <scene sceneID="l3E-wv-hdV">
             <objects>
-                <viewController id="C83-Vf-ZeF" sceneMemberID="viewController">
+                <viewController id="C83-Vf-ZeF" customClass="DSSELeftViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="shb-sa-0mJ"/>
                         <viewControllerLayoutGuide type="bottom" id="0lg-pD-2Vr"/>
@@ -15,7 +15,7 @@
                     <view key="view" contentMode="scaleToFill" id="8lg-rI-yIa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.58303989163542402" green="0.97272930095526267" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2VQ-0H-VlS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -33,21 +33,39 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N83-0w-1Ml">
+                                <rect key="frame" x="20" y="107" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left Side">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="C83-Vf-ZeF" kind="custom" customClass="HCDrawerSwipeSegue" id="lXo-ip-iqb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTA-a1-0Ld">
+                                <rect key="frame" x="203" y="141" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Right Side">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7GG-3R-dZl" kind="custom" customClass="HCDrawerSwipeSegue" id="6Jc-NO-kd0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="C83-Vf-ZeF" kind="custom" identifier="leftDrawerSwipeSegue" customClass="HCDrawerSwipeSegue" id="Gay-4i-5nV"/>
-                        <segue destination="7GG-3R-dZl" kind="custom" identifier="rightDrawerSwipeSegue" customClass="HCDrawerSwipeSegue" id="9Y4-b4-7ew"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="84" y="142"/>
         </scene>
-        <!--View Controller-->
+        <!--Right View Controller-->
         <scene sceneID="bK5-Sp-yw6">
             <objects>
-                <viewController id="7GG-3R-dZl" sceneMemberID="viewController">
+                <viewController id="7GG-3R-dZl" customClass="DSSERightViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iEx-kz-2kq"/>
                         <viewControllerLayoutGuide type="bottom" id="bFd-MK-zvi"/>
@@ -55,7 +73,7 @@
                     <view key="view" contentMode="scaleToFill" id="ihl-Ld-gwV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90343527035853943" green="0.68271768060516769" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oO9-Qm-Lmm" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HCDrawerSwipeSegue/HCDrawerSwipeSegue.h>
+#import <HCDrawerSwipeSegueBundle/HCDrawerSwipeSegue.h>
 
-@interface DSSEViewController : UIViewController <HCDrawerSwipeMasterViewController>
+@interface DSSEViewController : UIViewController <HCDrawerSwipeMasterViewControllerProtocol>
+
+@property (nonatomic) BOOL isShowingRightPanel;
+@property (nonatomic) BOOL isShowingLeftPanel;
+@property (nonatomic) CGRect originalViewFrame;
 
 @end

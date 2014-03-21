@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6E45B7B18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */; };
+		A633EB0918DB6CDB00B012CB /* HCDrawerSwipeSegueBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633EB0818DB6CDB00B012CB /* HCDrawerSwipeSegueBundle.framework */; };
+		A6E45B7E18DB2D8B00FA3B18 /* DSSELeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E45B7D18DB2D8B00FA3B18 /* DSSELeftViewController.m */; };
+		A6E45B8118DB2D9900FA3B18 /* DSSERightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E45B8018DB2D9900FA3B18 /* DSSERightViewController.m */; };
 		A6FB0F0118D9F36C00043974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0018D9F36C00043974 /* Foundation.framework */; };
 		A6FB0F0318D9F36C00043974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */; };
 		A6FB0F0518D9F36C00043974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB0F0418D9F36C00043974 /* UIKit.framework */; };
@@ -35,7 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HCDrawerSwipeSegue.framework; path = "../DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos/HCDrawerSwipeSegue.framework"; sourceTree = "<group>"; };
+		A633EB0818DB6CDB00B012CB /* HCDrawerSwipeSegueBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HCDrawerSwipeSegueBundle.framework; path = ../HCDrawerSwipeSegue/Products/HCDrawerSwipeSegueBundle.framework; sourceTree = "<group>"; };
+		A6E45B7C18DB2D8B00FA3B18 /* DSSELeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSELeftViewController.h; sourceTree = "<group>"; };
+		A6E45B7D18DB2D8B00FA3B18 /* DSSELeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSELeftViewController.m; sourceTree = "<group>"; };
+		A6E45B7F18DB2D9900FA3B18 /* DSSERightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSERightViewController.h; sourceTree = "<group>"; };
+		A6E45B8018DB2D9900FA3B18 /* DSSERightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSERightViewController.m; sourceTree = "<group>"; };
 		A6FB0EFD18D9F36C00043974 /* HCDrawerSwipeSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCDrawerSwipeSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FB0F0018D9F36C00043974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +69,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FB0F0318D9F36C00043974 /* CoreGraphics.framework in Frameworks */,
+				A633EB0918DB6CDB00B012CB /* HCDrawerSwipeSegueBundle.framework in Frameworks */,
 				A6FB0F0518D9F36C00043974 /* UIKit.framework in Frameworks */,
-				A6E45B7B18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework in Frameworks */,
 				A6FB0F0118D9F36C00043974 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +110,7 @@
 		A6FB0EFF18D9F36C00043974 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6E45B7A18DB2BBC00FA3B18 /* HCDrawerSwipeSegue.framework */,
+				A633EB0818DB6CDB00B012CB /* HCDrawerSwipeSegueBundle.framework */,
 				A6FB0F0018D9F36C00043974 /* Foundation.framework */,
 				A6FB0F0218D9F36C00043974 /* CoreGraphics.framework */,
 				A6FB0F0418D9F36C00043974 /* UIKit.framework */,
@@ -123,6 +129,10 @@
 				A6FB0F1618D9F36C00043974 /* DSSEViewController.m */,
 				A6FB0F1818D9F36C00043974 /* Images.xcassets */,
 				A6FB0F0718D9F36C00043974 /* Supporting Files */,
+				A6E45B7C18DB2D8B00FA3B18 /* DSSELeftViewController.h */,
+				A6E45B7D18DB2D8B00FA3B18 /* DSSELeftViewController.m */,
+				A6E45B7F18DB2D9900FA3B18 /* DSSERightViewController.h */,
+				A6E45B8018DB2D9900FA3B18 /* DSSERightViewController.m */,
 			);
 			path = HCDrawerSwipeSegueExample;
 			sourceTree = "<group>";
@@ -254,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E45B7E18DB2D8B00FA3B18 /* DSSELeftViewController.m in Sources */,
+				A6E45B8118DB2D9900FA3B18 /* DSSERightViewController.m in Sources */,
 				A6FB0F0D18D9F36C00043974 /* main.m in Sources */,
 				A6FB0F1718D9F36C00043974 /* DSSEViewController.m in Sources */,
 				A6FB0F1118D9F36C00043974 /* DSSEAppDelegate.m in Sources */,
@@ -384,7 +396,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HCDrawerSwipeSegue-gfhqmkhqqjoschfruisbmojeykrm/Build/Products/Debug-iphonesimulator",
-					"/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos",
+					/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/HCDrawerSwipeSegue/Products,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Prefix.pch";
@@ -403,7 +415,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HCDrawerSwipeSegue-gfhqmkhqqjoschfruisbmojeykrm/Build/Products/Debug-iphonesimulator",
-					"/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/DerivedData/HCDrawerSwipeSegue/Build/Products/Debug-iphoneos",
+					/Users/aaron_hull/Repositories/HullComputing/HCDrawerSwipeSeque/HCDrawerSwipeSegue/Products,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCDrawerSwipeSegueExample/HCDrawerSwipeSegueExample-Prefix.pch";
