@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 #import <HCDrawerSwipeSegueBundle/HCDrawerSwipeSegue.h>
 
-@interface DSSERightViewController : UIViewController <HCDrawerSwipeChildViewControllerProtocol>
-@property (nonatomic) HCDrawerSwipeChildPosition position;
-@property (nonatomic, readonly) UIViewController<HCDrawerSwipeMasterViewControllerProtocol> *masterViewController;
+@interface DSSERightViewController : HCDrawerSwipeChildViewController
 @end

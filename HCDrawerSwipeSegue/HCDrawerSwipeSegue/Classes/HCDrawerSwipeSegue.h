@@ -7,30 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HCDrawerSwipeChildViewController.h"
+#import "HCDrawerSwipeMasterViewController.h"
 
-typedef NS_ENUM(NSInteger, HCDrawerSwipeChildPosition) {
-    HCDrawerSwipeChildPositionLeft = 1,
-    HCDrawerSwipeChildPositionRight
-};
-
-@protocol HCDrawerSwipeMasterViewControllerProtocol <NSObject>
-
-@required
-@property (nonatomic) CGRect originalViewFrame;
-@property (nonatomic) BOOL isShowingRightPanel;
-@property (nonatomic) BOOL isShowingLeftPanel;
-@end
-
-@protocol HCDrawerSwipeChildViewControllerProtocol <NSObject>
-
-@required
-@property (nonatomic, readonly) UIViewController<HCDrawerSwipeMasterViewControllerProtocol> *masterViewController;
-@property (nonatomic) HCDrawerSwipeChildPosition position;
-
-@end
+static NSString *const kHCDSSegueIdentifierLeftSwipe = @"kHCDSSegueIdentifierLeftSwipe";
+static NSString *const kHCDSSegueIdentifierRightSwipe = @"kHCDSSegueIdentifierRightSwipe";
 
 @interface HCDrawerSwipeSegue : UIStoryboardSegue
-
-
 
 @end

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <HCDrawerSwipeSegueBundle/HCDrawerSwipeSegue.h>
 
-@interface DSSEViewController : UIViewController <HCDrawerSwipeMasterViewControllerProtocol>
+@interface DSSEViewController : HCDrawerSwipeMasterViewController
 
 @property (nonatomic) BOOL isShowingRightPanel;
 @property (nonatomic) BOOL isShowingLeftPanel;
